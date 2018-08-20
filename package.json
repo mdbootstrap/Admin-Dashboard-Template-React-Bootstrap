@@ -1,0 +1,23 @@
+{
+  "name": "mdb-react-admin-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chart": "^0.1.2",
+    "chart.js": "^2.7.2",
+    "google-map-react": "^1.0.6",
+    "mdbreact": "^4.7.0",
+    "react": "^16.4.2",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "salad-ui": "^1.1.55"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
