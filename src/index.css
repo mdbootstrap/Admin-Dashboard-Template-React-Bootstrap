@@ -70,6 +70,13 @@ main {
   background-color: #f8f9fa
 }
 
+.list-group-item:hover {
+  color: #49505B;
+  text-decoration: none;
+  background-color: #f8f9fa
+}
+
+
 .list-group .active {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 5px;
@@ -154,6 +161,23 @@ main {
   flex-flow: unset
 }
 
+.breadcrumb{
+  margin: 0;
+}
+
+.activeClass .list-group-item {
+  z-index: 5;
+  color: #fff;
+  border-color: #007bff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px !important;
+  background-color: #007bff !important;
+}
+
+.page-footer{
+  margin-left: 270px;
+}
+
 @media (max-width: 1199.98px) {
   .sidebar-fixed {
     display: none;
@@ -168,9 +192,13 @@ main {
   #content{
     margin-left: 0px;
   }
+
+  .page-footer{
+    margin-left: 0px;
+  }
   
   .card.cascading-admin-card {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
   } 
 }
 
@@ -184,8 +212,6 @@ main {
   }
 }
 
-@media (max-width: 768px) { 
 
-}
 
 

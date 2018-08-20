@@ -29,7 +29,7 @@ const ProfilePage =  () => {
               <Card className="d-flex mb-5">
                 <View>
                   <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-profile-page.jpg" alt="Project" className="img-fluid"/>
-                  <Mask overlay="white-slight" waves/>
+                  <Mask overlay="white-slight"/>
                 </View>
                 <CardBody>
                   <CardTitle className="font-bold mb-3">

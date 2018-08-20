@@ -61,14 +61,14 @@ class ChartSection1 extends Component {
         }
         return (
             <Row className="mb-4">
-                <Col md="9"className="mb-4">
+                <Col md="8"className="mb-4">
                     <Card className="mb-4">
                         <CardBody>
                             <Bar data={dataBar} height={500} options={barChartOptions} />
                         </CardBody>
                     </Card>
                 </Col>
-                <Col md="3" className="mb-4">
+                <Col md="4" className="mb-4">
                     <Card className="mb-4">
                         <CardHeader>Pie chart</CardHeader>
                         <CardBody>
