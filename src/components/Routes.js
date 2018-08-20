@@ -16,7 +16,6 @@ class Routes extends React.Component {
         <Route path='/tables' component={TablesPage} />
         <Route path='/maps' component={MapsPage} />
         <Route path='/404' component={NotFoundPage} />
-        <Route component={NotFoundPage} />
       </Switch>
     );
   }

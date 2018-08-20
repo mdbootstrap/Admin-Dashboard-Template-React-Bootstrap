@@ -13,7 +13,7 @@ class TopNavigation extends Component {
                     <img alt="MDB React Logo" className="img-fluid" src={logo}/>
                 </a>
                 <ListGroup className="list-group-flush">
-                    <NavLink to="/dashboard" activeClassName="activeClass">
+                    <NavLink exact={true} to="/" activeClassName="activeClass">
                         <ListGroupItem>
                             <Fa icon="pie-chart" className="mr-3"/>
                             Dashboard
