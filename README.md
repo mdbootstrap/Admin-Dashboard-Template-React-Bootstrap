@@ -8,12 +8,12 @@
 # install dependencies
 yarn
 
-# serve with hot reload at localhost:8080
+# untuk menjalankan ke localhost:8080 pada browser anda
 yarn start
 
-# build for production with minification
+# membuat app untuk di produksi
 yarn build
 
-# build for production and view the bundle analyzer report
+# menganalisa laporan app anda
 yarn build --report
 ```
