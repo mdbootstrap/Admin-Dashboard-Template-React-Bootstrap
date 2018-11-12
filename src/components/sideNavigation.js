@@ -9,7 +9,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <div className="sidebar-fixed position-fixed">
-                <a className="logo-wrapper waves-effect">
+                <a href="#!" className="logo-wrapper waves-effect">
                     <img alt="MDB React Logo" className="img-fluid" src={logo}/>
                 </a>
                 <ListGroup className="list-group-flush">

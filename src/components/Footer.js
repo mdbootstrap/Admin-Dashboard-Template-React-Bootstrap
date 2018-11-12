@@ -5,8 +5,8 @@ const Footer = () => {
     return (
         <MDBFooter color="blue" className="text-center font-small darken-2">
             <div className="pt-4">
-                <Button outline color="white" tag="a" href="https://mdbootstrap.com/getting-started/" target="_blank">Download MDB<Fa icon="download" className="ml-2"/></Button>
-                <Button outline color="white" tag="a" href="https://mdbootstrap.com/getting-started/" target="_blank">Start free tutorial<Fa icon="graduation-cap" className="ml-2"/></Button>
+                <Button outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/download/" target="_blank">Download MDB<Fa icon="download" className="ml-2"/></Button>
+                <Button outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/quick-start/" target="_blank">Start free tutorial<Fa icon="graduation-cap" className="ml-2"/></Button>
                 <hr className="my4"/>
             </div>
             <div className="pb-4">
