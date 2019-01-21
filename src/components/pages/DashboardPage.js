@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'mdbreact';
+import { MDBRow } from 'mdbreact';
 import AdminCardSection1 from './sections/AdminCardSection1';
 import AdminCardSection2 from './sections/AdminCardSection2';
 import TableSection from './sections/TableSection';
@@ -17,10 +17,10 @@ const DashboardPage =  () => {
       <ChartSection1 />
       <TableSection />
       <ChartSection2 />
-      <Row className="mb-4">
+      <MDBRow className="mb-4">
           <MapSection />
           <ModalSection />
-      </Row>
+      </MDBRow>
       <AdminCardSection2 />
     </React.Fragment>
   )

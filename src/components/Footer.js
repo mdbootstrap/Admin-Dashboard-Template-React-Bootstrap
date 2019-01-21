@@ -1,23 +1,23 @@
 import React from 'react';
-import { MDBFooter, Button, Fa } from 'mdbreact';
+import { MDBFooter, MDBBtn, MDBIcon } from 'mdbreact';
 
 const Footer = () => {
     return (
         <MDBFooter color="blue" className="text-center font-small darken-2">
             <div className="pt-4">
-                <Button outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/download/" target="_blank">Download MDB<Fa icon="download" className="ml-2"/></Button>
-                <Button outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/quick-start/" target="_blank">Start free tutorial<Fa icon="graduation-cap" className="ml-2"/></Button>
+                <MDBBtn outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/download/" target="_blank">Download MDB<MDBIcon icon="download" className="ml-2"/></MDBBtn>
+                <MDBBtn outline color="white" tag="a" href="https://mdbootstrap.com/docs/react/getting-started/quick-start/" target="_blank">Start free tutorial<MDBIcon icon="graduation-cap" className="ml-2"/></MDBBtn>
                 <hr className="my4"/>
             </div>
             <div className="pb-4">
-                <Fa icon="facebook" className="mr-3"/>
-                <Fa icon="twitter" className="mr-3"/>
-                <Fa icon="youtube" className="mr-3"/>
-                <Fa icon="google-plus" className="mr-3"/>
-                <Fa icon="dribbble" className="mr-3"/>
-                <Fa icon="pinterest" className="mr-3"/>
-                <Fa icon="github" className="mr-3"/>
-                <Fa icon="codepen" className="mr-3"/>
+                <MDBIcon fab icon="facebook" className="mr-3"/>
+                <MDBIcon fab icon="twitter" className="mr-3"/>
+                <MDBIcon fab icon="youtube" className="mr-3"/>
+                <MDBIcon fab icon="google-plus" className="mr-3"/>
+                <MDBIcon fab icon="dribbble" className="mr-3"/>
+                <MDBIcon fab icon="pinterest" className="mr-3"/>
+                <MDBIcon fab icon="github" className="mr-3"/>
+                <MDBIcon fab icon="codepen" className="mr-3"/>
             </div>
             <p className="footer-copyright mb-0 py-3 text-center">
                 &copy; {new Date().getFullYear()} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>

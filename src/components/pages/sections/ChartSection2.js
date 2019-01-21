@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Card, CardBody, CardHeader, Row } from 'mdbreact';
+import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow } from 'mdbreact';
 import { Line, Doughnut, Radar } from 'react-chartjs-2';
 
 class ChartSection2 extends Component {
@@ -62,35 +62,35 @@ class ChartSection2 extends Component {
         };
 
         return (
-            <Row className="mb-4">
-                <Col md="12" lg="4" className="mb-4">
-                    <Card className="mb-4">
-                    <CardHeader>Line chart</CardHeader>
-                    <CardBody>
+            <MDBRow className="mb-4">
+                <MDBCol md="12" lg="4" className="mb-4">
+                    <MDBCard className="mb-4">
+                    <MDBCardHeader>Line chart</MDBCardHeader>
+                    <MDBCardBody>
                         <Line data={dataLine} options={{responsive: true }} />
-                    </CardBody>
-                    </Card>
-                </Col>
-                <Col md="12" lg="4" className="mb-4">
-                    <Card className="mb-4">
-                    <CardHeader>Radar chart</CardHeader>
-                    <CardBody>
+                    </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md="12" lg="4" className="mb-4">
+                    <MDBCard className="mb-4">
+                    <MDBCardHeader>Radar chart</MDBCardHeader>
+                    <MDBCardBody>
                         <Radar data={dataRadar}  height={300} options={{responsive: true }} />
-                    </CardBody>
-                    </Card>
-                </Col>
-                <Col md="12" lg="4" className="mb-4">
-                    <Card className="mb-4">
-                    <CardHeader>Doughnut chart</CardHeader>
-                    <CardBody >
+                    </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md="12" lg="4" className="mb-4">
+                    <MDBCard className="mb-4">
+                    <MDBCardHeader>Doughnut chart</MDBCardHeader>
+                    <MDBCardBody >
                         <Doughnut data={dataDoughnut}  height={300} options={{responsive: true }} />
-                    </CardBody>
-                    </Card>
-                </Col>
-            </Row>
+                    </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+            </MDBRow>
         )
     }
-    
+
 }
 
 export default ChartSection2;

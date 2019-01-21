@@ -1,28 +1,28 @@
 import React from 'react'
-import { Row, Col, View, Card, CardBody, Table, TableHead, TableBody } from 'mdbreact';
+import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody } from 'mdbreact';
 
 const TablesPage =  () => {
   return (
-    <React.Fragment>
-      <Row>
-      <Col md="12">
-        <Card className="mt-5">
-          <View className="gradient-card-header blue darken-2">
+    <>
+      <MDBRow>
+      <MDBCol md="12">
+        <MDBCard className="mt-5">
+          <MDBView className="gradient-card-header blue darken-2">
             <h4 className="h4-responsive text-white">Basic tables</h4>
-          </View>
-          <CardBody>
+          </MDBView>
+          <MDBCardBody>
             <h3 className="mt-5 text-left"><strong>Basic examples</strong></h3>
             <p>Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
-            <Table>
-              <TableHead>
+            <MDBTable>
+              <MDBTableHead>
                 <tr>
                   <th>#</th>
                   <th>First</th>
                   <th>Last</th>
                   <th>Handle</th>
                 </tr>
-              </TableHead>
-              <TableBody>
+              </MDBTableHead>
+              <MDBTableBody>
                 <tr>
                   <td>1</td>
                   <td>Mark</td>
@@ -41,20 +41,20 @@ const TablesPage =  () => {
                   <td>the Bird</td>
                   <td>@twitter</td>
                 </tr>
-              </TableBody>
-            </Table>
-            <h3 className="mt-5 text-left"><strong>Table head options</strong></h3>
+              </MDBTableBody>
+            </MDBTable>
+            <h3 className="mt-5 text-left"><strong>MDBTable head options</strong></h3>
             <p>To change a background-color of thead (or any other element) use our color classes. If you are going to use a dark background you should also consider white text (to provide a proper contrast) by adding .text-white class.</p>
-            <Table>
-              <TableHead color="primary-color" textWhite>
+            <MDBTable>
+              <MDBTableHead color="primary-color" textWhite>
                 <tr>
                   <th>#</th>
                   <th>First</th>
                   <th>Last</th>
                   <th>Handle</th>
                 </tr>
-              </TableHead>
-              <TableBody>
+              </MDBTableHead>
+              <MDBTableBody>
                 <tr>
                   <td>1</td>
                   <td>Mark</td>
@@ -73,18 +73,18 @@ const TablesPage =  () => {
                   <td>the Bird</td>
                   <td>@twitter</td>
                 </tr>
-              </TableBody>
-            </Table>
-            <Table>
-              <TableHead color="pink">
+              </MDBTableBody>
+            </MDBTable>
+            <MDBTable>
+              <MDBTableHead color="pink">
                 <tr>
                   <th>#</th>
                   <th>First</th>
                   <th>Last</th>
                   <th>Handle</th>
                 </tr>
-              </TableHead>
-              <TableBody>
+              </MDBTableHead>
+              <MDBTableBody>
                 <tr>
                   <td>1</td>
                   <td>Mark</td>
@@ -103,20 +103,20 @@ const TablesPage =  () => {
                   <td>the Bird</td>
                   <td>@twitter</td>
                 </tr>
-              </TableBody>
-            </Table>
+              </MDBTableBody>
+            </MDBTable>
             <h3 className="mt-5 text-left"><strong>Striped rows.</strong></h3>
             <p>Use prop striped to add zebra-striping to any table row within the table body</p>
-            <Table striped>
-              <TableHead>
+            <MDBTable striped>
+              <MDBTableHead>
                 <tr>
                   <th>#</th>
                   <th>First</th>
                   <th>Last</th>
                   <th>Handle</th>
                 </tr>
-              </TableHead>
-              <TableBody>
+              </MDBTableHead>
+              <MDBTableBody>
                 <tr>
                   <td>1</td>
                   <td>Mark</td>
@@ -135,13 +135,13 @@ const TablesPage =  () => {
                   <td>the Bird</td>
                   <td>@twitter</td>
                 </tr>
-              </TableBody>
-            </Table>
-          </CardBody>
-        </Card>
-      </Col>
-    </Row>
-    </React.Fragment>
+              </MDBTableBody>
+            </MDBTable>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
+    </>
   )
 }
 

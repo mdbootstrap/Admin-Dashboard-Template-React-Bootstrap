@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Card, CardBody, CardHeader, Row, ListGroup, ListGroupItem, Badge, Fa } from 'mdbreact';
+import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader, MDBRow, MDBListGroup, MDBListGroupItem, MDBBadge, MDBIcon } from 'mdbreact';
 import { Bar, Pie } from 'react-chartjs-2';
 
 class ChartSection1 extends Component {
@@ -60,61 +60,61 @@ class ChartSection1 extends Component {
             ]
         }
         return (
-            <Row className="mb-4">
-                <Col md="8"className="mb-4">
-                    <Card className="mb-4">
-                        <CardBody>
+            <MDBRow className="mb-4">
+                <MDBCol md="8"className="mb-4">
+                    <MDBCard className="mb-4">
+                        <MDBCardBody>
                             <Bar data={dataBar} height={500} options={barChartOptions} />
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col md="4" className="mb-4">
-                    <Card className="mb-4">
-                        <CardHeader>Pie chart</CardHeader>
-                        <CardBody>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol md="4" className="mb-4">
+                    <MDBCard className="mb-4">
+                        <MDBCardHeader>Pie chart</MDBCardHeader>
+                        <MDBCardBody>
                             <Pie data={dataPie} height={300} options={{responsive: true}} />
-                        </CardBody>
-                    </Card>
-                    <Card className="mb-4">
-                        <CardBody>
-                            <ListGroup className="list-group-flush">
-                                <ListGroupItem>
+                        </MDBCardBody>
+                    </MDBCard>
+                    <MDBCard className="mb-4">
+                        <MDBCardBody>
+                            <MDBListGroup className="list-group-flush">
+                                <MDBListGroupItem>
                                     Sales
-                                    <Badge color="success-color" pill className="pull-right">
+                                    <MDBBadge color="success-color" pill className="float-right">
                                         22%
-                                        <Fa icon="arrow-up" className="ml-1"/>
-                                    </Badge>
-                                </ListGroupItem>
-                                <ListGroupItem>
+                                        <MDBIcon icon="arrow-up" className="ml-1"/>
+                                    </MDBBadge>
+                                </MDBListGroupItem>
+                                <MDBListGroupItem>
                                     Traffic
-                                    <Badge color="danger-color" pill className="pull-right">
+                                    <MDBBadge color="danger-color" pill className="float-right">
                                         5%
-                                        <Fa icon="arrow-down" className="ml-1"/>
-                                    </Badge>
-                                </ListGroupItem>
-                                <ListGroupItem>
+                                        <MDBIcon icon="arrow-down" className="ml-1"/>
+                                    </MDBBadge>
+                                </MDBListGroupItem>
+                                <MDBListGroupItem>
                                     Orders
-                                    <Badge color="primary-color" pill className="pull-right">
+                                    <MDBBadge color="primary-color" pill className="float-right">
                                         14
-                                    </Badge>
-                                </ListGroupItem>
-                                <ListGroupItem>
+                                    </MDBBadge>
+                                </MDBListGroupItem>
+                                <MDBListGroupItem>
                                     Issues
-                                    <Badge color="primary-color" pill className="pull-right">
+                                    <MDBBadge color="primary-color" pill className="float-right">
                                         123
-                                    </Badge>
-                                </ListGroupItem>
-                                <ListGroupItem>
+                                    </MDBBadge>
+                                </MDBListGroupItem>
+                                <MDBListGroupItem>
                                     Messages
-                                    <Badge color="primary-color" pill className="pull-right">
+                                    <MDBBadge color="primary-color" pill className="float-right">
                                         8
-                                    </Badge>
-                                </ListGroupItem>
-                            </ListGroup>
-                        </CardBody>
-                    </Card>
-                </Col> 
-            </Row>
+                                    </MDBBadge>
+                                </MDBListGroupItem>
+                            </MDBListGroup>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
+            </MDBRow>
         )
     }
 }

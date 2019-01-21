@@ -1,22 +1,22 @@
 import React from 'react';
-import { Card, CardBody, Table, TableBody, TableHead, Row, Col } from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBTable, MDBTableBody, MDBTableHead, MDBRow, MDBCol } from 'mdbreact';
 
 const TableSection = () => {
   return (
-    <Row className="mb-4">
-          <Col md="6">
-              <Card>
-                  <CardBody>
-                    <Table hover>
-                      <TableHead color="blue-grey lighten-4">
+    <MDBRow className="mb-4">
+          <MDBCol md="6">
+              <MDBCard>
+                  <MDBCardBody>
+                    <MDBTable hover>
+                      <MDBTableHead color="blue-grey lighten-4">
                         <tr>
                           <th>#</th>
                           <th>First</th>
                           <th>Last</th>
                           <th>Handle</th>
                         </tr>
-                      </TableHead>
-                      <TableBody>
+                      </MDBTableHead>
+                      <MDBTableBody>
                         <tr>
                           <td>1</td>
                           <td>Mark</td>
@@ -35,24 +35,24 @@ const TableSection = () => {
                           <td>the Bird</td>
                           <td>@twitter</td>
                         </tr>
-                      </TableBody>
-                    </Table>
-                  </CardBody>
-              </Card>
-          </Col>
-          <Col md="6" className="mb-4">
-              <Card>
-                  <CardBody>
-                    <Table hover>
-                      <TableHead color="blue lighten-4">
+                      </MDBTableBody>
+                    </MDBTable>
+                  </MDBCardBody>
+              </MDBCard>
+          </MDBCol>
+          <MDBCol md="6" className="mb-4">
+              <MDBCard>
+                  <MDBCardBody>
+                    <MDBTable hover>
+                      <MDBTableHead color="blue lighten-4">
                         <tr>
                           <th>#</th>
                           <th>First</th>
                           <th>Last</th>
                           <th>Handle</th>
                         </tr>
-                      </TableHead>
-                      <TableBody>
+                      </MDBTableHead>
+                      <MDBTableBody>
                         <tr>
                           <td>1</td>
                           <td>Mark</td>
@@ -71,12 +71,12 @@ const TableSection = () => {
                           <td>the Bird</td>
                           <td>@twitter</td>
                         </tr>
-                      </TableBody>
-                    </Table>
-                  </CardBody>
-              </Card>
-          </Col>
-      </Row>
+                      </MDBTableBody>
+                    </MDBTable>
+                  </MDBCardBody>
+              </MDBCard>
+          </MDBCol>
+      </MDBRow>
   )
 }
 
